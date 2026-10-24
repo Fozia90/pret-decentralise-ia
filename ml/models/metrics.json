@@ -1,0 +1,31 @@
+{
+  "seuil": 0.3,
+  "resultats": [
+    {
+      "modele": "Régression logistique (référence)",
+      "auc": 0.6954,
+      "brier": 0.1172,
+      "precision": 0.3583,
+      "rappel": 0.1799,
+      "matrice": {
+        "vrais_negatifs": 1284,
+        "faux_positifs": 77,
+        "faux_negatifs": 196,
+        "vrais_positifs": 43
+      }
+    },
+    {
+      "modele": "XGBoost",
+      "auc": 0.6755,
+      "brier": 0.1193,
+      "precision": 0.378,
+      "rappel": 0.2008,
+      "matrice": {
+        "vrais_negatifs": 1282,
+        "faux_positifs": 79,
+        "faux_negatifs": 191,
+        "vrais_positifs": 48
+      }
+    }
+  ]
+}
