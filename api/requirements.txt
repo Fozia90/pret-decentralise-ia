@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+eth-account
+python-dotenv
+joblib
