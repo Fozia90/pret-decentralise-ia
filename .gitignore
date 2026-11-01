@@ -13,3 +13,5 @@ build/
 contracts/out/
 contracts/cache/
 contracts/broadcast/
+.env.*
+!.env.example
